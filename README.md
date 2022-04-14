@@ -1,5 +1,5 @@
 # Computational-Magnetohydrodynamics
-This directory contains all the code required to perform 1-D and 2-D simulations of magnetohydrodynamics system.
+This directory contains all the code required to perform 1-D and 2-D simulations of magnetohydrodynamics system. Final report `MHD_report` submitted has also been added.
 
 * **main.cpp** - This file contains the initial settings required to run simulations.
 * **array.cpp** - This file contains the functions defining the data structure used in the MHD code.
