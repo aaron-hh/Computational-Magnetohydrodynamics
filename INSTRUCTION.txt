@@ -1,0 +1,17 @@
+###This file contains the instructions to run the MHD code. 
+
+##List of files required to run the MHD code
+main.cpp - contains the initial settings required to run simulations; first file to open to ammend initial settings!
+array.cpp - contains the function defining data structure used in the MHD code
+system_MHD.cpp - contains iteration function and initial data for different MHD test cases
+eos_MHD.cpp - contains the MHD specific flux functions and variable conversion functions
+numerical_method_MHD.cpp - contains the HLLC solver; FORCE solver for MHD
+
+##Additional files for extra analysis 
+convergence.cpp - contains the function to calculate error and convergence rate
+RiemannExactSol.cpp - contains the functions to calculate the exact solution for 1-D Euler
+
+##Steps to run MHD code 
+1. Ammend the initial settings in main.cpp 
+2. Compile all the .cpp files listed above 
+3. Link the object files together 
